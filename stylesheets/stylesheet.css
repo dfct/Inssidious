@@ -7,10 +7,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #333333; }
 
 a {
-  color: #1e6bb8;
+  color: #3d9d3d;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -18,7 +18,7 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: #000000;
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -29,9 +29,9 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #000000;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #72e55d;
   border-color: rgba(255, 255, 255, 0.3); }
 
 @media screen and (min-width: 64em) {
@@ -54,10 +54,16 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #000000;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #e6e6e6;
+  background-image: linear-gradient(120deg, #5d7d5d, #7dad7d);
+  
+   }
+
+.page-header img {
+  max-width: 100%; }
+
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -73,19 +79,24 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+  }
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 4.75rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; } }
+    font-size: 3.75rem; } }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 3.25rem; } }
 
 .project-tagline {
   margin-bottom: 2rem;
@@ -94,15 +105,15 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 1.65rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.15rem; } }
+    font-size: 1.55rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
-    font-size: 1rem; } }
+    font-size: 1.4rem; } }
 
 .main-content :first-child {
   margin-top: 0; }
@@ -112,7 +123,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #1d5d1d; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
